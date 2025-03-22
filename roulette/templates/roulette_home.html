@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roulette Home</title>
+  </head>
+  <body>
+    <h1>Roulette Home</h1>
+    <h3>Roulettes list:</h3>
+    {% for roulette in roulettes %}
+    <ul>
+      <li>{{ roulette.title }}</li>
+    </ul>
+    {% endfor %}
+  </body>
+</html>
